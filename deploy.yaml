@@ -16,7 +16,7 @@ spec:
       - name: devops-app-c5
         image: vinay1234567/test-dev:latest
         ports:
-        - containerPort: 80
+        - containerPort: 3000
 --- 
 apiVersion: v1
 kind: Service
